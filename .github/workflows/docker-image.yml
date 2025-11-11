@@ -35,7 +35,7 @@ jobs:
     - name: Push Docker Image
       run: |
         docker push carlosgomez1001/docker-graphql:1.0.2
-        docker build -t carlosgomez1001/docker-graphql:latest
+        docker push carlosgomez1001/docker-graphql:latest
     
     
     # - name: Build the Docker image
